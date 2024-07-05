@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 function Card({Data , reference}) {
 
   return (
-      <motion.div  drag dragConstraints={reference} whileDrag={{scale:1.2}} whileHover={{scale:1.1}} className='relative w-60 h-72 rounded-[40px] bg-zinc-900/90 text-white px-8 py-10 overflow-hidden'>
+      <motion.div  whileDrag={{scale:1.2}} whileHover={{scale:1.1}} className='relative w-60 h-72 rounded-[40px] bg-zinc-900/90 text-white px-8 py-10 overflow-hidden'>
           <h3 className='text-xl font-bold'>{ Data.name }</h3>
           <p className='text-sm leading-tight mt-5 font-md'>{Data.desc}</p>
           <div className='footer absolute bottom-0 left-0  w-full '>
@@ -16,7 +16,7 @@ function Card({Data , reference}) {
                   </a>
               </div>
               <div className='tag w-full py-4 bg-green-600 flex items-center justify-center'>
-                  <a className='text-md font-semibold cursor-pointer'>Contact Now</a>
+                  <a href="https://wa.me/+923070471863" className='text-md font-semibold cursor-pointer'>Contact Now</a>
               </div>
           </div> 
       </motion.div>
