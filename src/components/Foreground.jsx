@@ -7,8 +7,9 @@ function Foreground() {
     {
         name: "Quiz App",
         desc: "Challenge yourself with our interactive quizzes! Learn, grow, and have fun today",
-        live: "https://github.com/AwaisAhmad211/Quiz-App",
-        code: "https://awaisahmad211.github.io/Quiz-App/",
+        live: "https://awaisahmad211.github.io/Quiz-App/",
+        code: "https://github.com/AwaisAhmad211/Quiz-App",
+
       },
       {
           name: "Form Validation",
